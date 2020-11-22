@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d600940da005c794497b28650ed1aac8, type: 3}
+  m_Name: Crank
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7419705406797134069, guid: c4671c7c1f88d0f49a9158de325c96ee, type: 3}
+  layer: 1
+  miniGameDiffs:
+  - name: EASY
+    totalSpawnChance: 3
+    chanceDecreaseRate: 1
+    currentChance: 5
+  - name: MEDIUM
+    totalSpawnChance: 3
+    chanceDecreaseRate: 1
+    currentChance: 3
+  - name: HARD
+    totalSpawnChance: 3
+    chanceDecreaseRate: 1
+    currentChance: 0
+  maxTotal: 2
+  currentTotal: 2

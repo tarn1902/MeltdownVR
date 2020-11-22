@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d600940da005c794497b28650ed1aac8, type: 3}
+  m_Name: Lever (Single)
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 121694075923313094, guid: 6bf4040da583dd04e8a2ce499a9cdc59, type: 3}
+  layer: 0
+  miniGameDiffs:
+  - name: EASY
+    totalSpawnChance: 5
+    chanceDecreaseRate: 1
+    currentChance: 0
+  - name: MEDIUM
+    totalSpawnChance: 5
+    chanceDecreaseRate: 1
+    currentChance: 5
+  - name: HARD
+    totalSpawnChance: 5
+    chanceDecreaseRate: 1
+    currentChance: 0
+  maxTotal: 5
+  currentTotal: 5

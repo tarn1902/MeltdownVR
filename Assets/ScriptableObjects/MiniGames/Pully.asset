@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d600940da005c794497b28650ed1aac8, type: 3}
+  m_Name: Pully
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 980279166194313104, guid: b247120e0c949774794725c37d25d6d7, type: 3}
+  layer: 2
+  miniGameDiffs:
+  - name: EASY
+    totalSpawnChance: 0
+    chanceDecreaseRate: 1
+    currentChance: 5
+  - name: MEDIUM
+    totalSpawnChance: 5
+    chanceDecreaseRate: 1
+    currentChance: 0
+  - name: HARD
+    totalSpawnChance: 5
+    chanceDecreaseRate: 1
+    currentChance: 0
+  maxTotal: 5
+  currentTotal: 5
